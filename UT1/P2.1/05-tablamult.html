@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de multiplicar</title>
+</head>
+<body>
+  <script>
+    var numero = prompt("Introduce un número para ver su tabla de multiplicar:");
+
+    if (isNaN(numero) || numero < 0) {
+      console.warn("Tienes que introducir un número igual o mayor que 0");
+    } else {
+      
+      document.write("<ul>");
+
+      for (var i = 1; i <= 10; i++) {
+        var resultado = numero * i;
+        console.log(numero + " x " + i + " = " + resultado);
+        document.write("<li>" + numero + " x " + i + " = " + resultado + "</li>");
+
+      }
+      document.write("</ul>");
+    }
+  </script>
+</body>
+</html>

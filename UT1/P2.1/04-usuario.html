@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Usuario del email</title>
+</head>
+<body>
+  <script>
+    let email = prompt("Introduce tu correo electrónico:").trim();
+
+    
+    let partes = email.split("@");
+    let usuario = partes[0];
+
+    console.log("Tu nombre de usuario es: " + usuario);
+    document.write("<p>Tu nombre de usuario es: " + usuario + "</p>");
+  </script>
+</body>
+</html>

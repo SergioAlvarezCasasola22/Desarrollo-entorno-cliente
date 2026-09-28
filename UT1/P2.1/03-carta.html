@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta personalizada</title>
+</head>
+<body>
+  <script>
+    
+    let nombre = prompt("Introduce tu nombre:").trim();
+    let curso = prompt("Introduce el curso:").trim();
+    let localidad = prompt("Introduce la localidad:").trim();
+    let fechaInicio = prompt("Introduce la fecha de inicio:").trim();
+    let fechaFin = prompt("Introduce la fecha de fin:").trim();
+
+    document.write("<p>Estimado " + nombre + ",</p>");
+    document.write("<p>Bienvenido al curso de " + curso + " que se celebrará en la localidad de " 
+        + localidad + " entre las fechas " + fechaInicio + " y " + fechaFin + 
+        ". Espero que el curso se desarrolle según sus expectativas. Estaremos encantados de atenderle.</p>");
+    document.write("<p>Atentamente,<br>La dirección.</p>");
+  </script>
+</body>
+</html>
