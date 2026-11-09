@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "5b77",
+      "generation-tomas": {
+        "icons": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/132.png",
+          "front_female": null
+        }
+      }
+    },
+    {
+      "id": "0bc2",
+      "generation-d": {
+        "icons": {
+          "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/132.png",
+          "front_female": null
+        }
+      }
+    },
+    {
+      "id": "0bc2",
+      "generation-d": {
+        "icons": {
+          "front_default": "localhost",
+          "front_female": null
+        }
+      }
+    },
+    {
+      "id": "026f"
+    },
+    {
+      "id": "aerg7CRyF5A"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "anothddddddddddddder comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "3",
+      "text": "Izan se bueno",
+      "postId": "ssss1"
+    },
+    {
+      "id": "4",
+      "text": "Izan pasatelo bien",
+      "postId": "1112"
+    },
+    {
+      "id": "222",
+      "text": "ss",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
